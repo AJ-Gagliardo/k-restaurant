@@ -1,8 +1,28 @@
 #title1{
+    margin-top:0;
+    margin-bottom: 0;
     color:white;
-    margin-left:10%;
+    /* margin-left:10%; */
 }
 
+#logo{
+    height: 8rem;
+    width: 8rem;
+    /* border-radius: ; */
+}
+
+#restaurant-pre{
+    grid-column: 1/4;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
 
 nav{
     /* justify-self:center; */
@@ -11,5 +31,12 @@ nav{
     grid-template-rows: 1.5 rem;
 /* width:40%; */
 justify-content: center;
+grid-column: 1/4;
+/* gap:2rem; */
 
 }
+
+#content{
+    grid-column: 1/5;
+}
+
