@@ -1,0 +1,15 @@
+#title1{
+    color:white;
+    margin-left:10%;
+}
+
+
+nav{
+    /* justify-self:center; */
+    display:grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 1.5 rem;
+/* width:40%; */
+justify-content: center;
+
+}
