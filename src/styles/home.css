@@ -27,6 +27,7 @@ div#hero-section{
     font-size: 3rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
    padding-top: 10%;
+   width:70%
 
 }
 
@@ -37,7 +38,8 @@ div#hero-section{
 
 #hero-text{
     font-size:1.5rem;
-    color:white
+    color:white;
+    padding-top: 10%;
 }
 
 #hero-btn1, #hero-btn2{
@@ -64,6 +66,8 @@ font-size: 1rem;
     flex-direction:column;
     /* justify-content: space-between; */
     align-items: center;
+    align-content: center;
+    text-align: center;
 }
 .buttons{
     display:grid;
@@ -71,3 +75,23 @@ font-size: 1rem;
     align-items: center;
     gap:1rem;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #hero-title{
+        padding-top: 25%;
+        width: 100%;
+       font-size: 2.5rem;
+ 
+    }
+
+    #hero-subtitle{
+        padding-top: 15%;
+        font-size: 2rem;
+        padding-bot:10%;
+    }
+    #hero-text{
+        padding-top: 20%;
+    }
+        
+       }

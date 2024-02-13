@@ -27,18 +27,22 @@
 }
 
 #restaurant-pre{
-    grid-column: 1/4;
+    grid-column: 1/5;
     display: flex;
     align-items:center;
     justify-content: center;
+    margin:0;
+    margin-left: 2%;
 }
 
 header{
+    margin-top: 2%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 3rem;
-    row-gap: 0.5rem;
+    row-gap: 1rem;
     justify-content: center;
+    text-align: center;
 }
 
 nav{
@@ -83,3 +87,16 @@ grid-column: 1/4;
     display:flex;
     align-items:center;
     }
+
+
+    @media only screen and (max-width: 600px) {
+     #title1{
+        font-size: 28px;
+     }
+     #logo{
+        height: 110px;
+        width: 110px;
+        /* border-radius: ; */
+    }
+         
+        }
