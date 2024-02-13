@@ -1,1 +1,1 @@
-console.log("testing123");
+(()=>{"use strict";var e={};(e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})})(e),document.getElementById("content");console.log("testing12345"),console.log("home"),console.log(e.default)})();
