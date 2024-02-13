@@ -12,10 +12,62 @@
 
 div#hero-section{
     width:100%;
-    height:90vh;
+    height:80vh;
     background-color: red;
     background-image: url("../assets/img/samgyeop-hero.jpg");
     background-color: #cccccc;
     background-size: cover;
     background-position: center top;
+    filter: blur(5px); /* Apply a blur effect */
+    /* Or */
+    filter: grayscale(30%); /* Apply a grayscale effect */
+}
+
+#hero-title{
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+   padding-top: 10%;
+
+}
+
+#hero-subtitle{
+    font-size:2.5rem;
+    color:white;
+}
+
+#hero-text{
+    font-size:1.5rem;
+    color:white
+}
+
+#hero-btn1, #hero-btn2{
+    color:white;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    height:100%
+}
+
+#hero-btn1{
+    background-color: orangered;
+
+}
+#hero-btn2{
+background-color: gray;
+font-size: 1rem;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap:1rem;
 }
