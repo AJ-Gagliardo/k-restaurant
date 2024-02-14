@@ -3,7 +3,9 @@
     src: url("../assets/font/seven-swordsmen-bb/SEVESBRG.TTF") format('woff');
   }
 
-
+.nav-btn{
+    font-size: 1rem;
+}
 #title1, #hero-title{
     font-family: "7swordsmen";
     margin-top:0;
@@ -23,6 +25,7 @@
 #logo{
     height: 8rem;
     width: 8rem;
+    /* margin-right:-15%; */
     /* border-radius: ; */
 }
 
@@ -32,7 +35,7 @@
     align-items:center;
     justify-content: center;
     margin:0;
-    margin-left: 2%;
+    margin-left: 15%;
 }
 
 header{

@@ -76,6 +76,9 @@ removeChildren(); // this will be to reset the whole content section
     heroSection.appendChild(overlay);
 
     content.appendChild(heroSection);
+
+    // had to use npm install file=loader --save-dev 
+    // to be able to use the code below 
     content.style.backgroundImage = "url('../src/assets/img/samgyeop-hero.jpg')" ;
     // content.style.backgroundImage  = backgroundImage;
     // content.style.backgroundImage = "url('./samgyeop-hero.jpg')";
