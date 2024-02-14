@@ -31,26 +31,7 @@ const heroBtn2 = createElement('button','hero-btn2','btns', 'About us');
 
 
 
-// const overlay = document.createElement('div');
-// overlay.classList.add('overlay');
-// const heroTitle = document.createElement('div');
-// heroTitle.id = "hero-title";
-// heroTitle.textContent = "Discover the soul of Seoul's cooking";
 
-// const heroSubtitle = document.createElement('h2');
-
-
-
-// const buttons = document.createElement('div');
-// buttons.classList.add('buttons');
-
-// const heroBtn1 = document.createElement('button');
-// heroBtn1.id = "hero-btn1";
-// heroBtn1.textContent = "Menu";
-
-// const heroBtn2 = document.createElement('div');
-// heroBtn2.id = "hero-btn2";
-// heroBtn2.textContent = "About us";
 
 
 
@@ -77,7 +58,7 @@ removeChildren(); // this will be to reset the whole content section
 
     content.appendChild(heroSection);
 
-    // had to use npm install file=loader --save-dev 
+    // had to use npm install file-loader --save-dev 
     // to be able to use the code below 
     content.style.backgroundImage = "url('../src/assets/img/samgyeop-hero.jpg')" ;
     // content.style.backgroundImage  = backgroundImage;
