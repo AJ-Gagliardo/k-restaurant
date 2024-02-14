@@ -18,6 +18,7 @@ function createElement(element, id, className, textContent){
 
 }
 
+const heroSection= createElement('div','hero-section',null,null);
 const overlay = createElement('div', null, 'overlay', null );
 const heroTitle= createElement('h2','hero-title', null, "Discover the soul of Seoul's cooking");
 const heroSubtitle = createElement('h3','hero-subtitle',null,'Authentic taste and exciting experience');
@@ -53,7 +54,7 @@ const heroBtn2 = createElement('button','hero-btn2','btns', 'About us');
 
 
 
-// import backgroundImage from '../img/samgyeop-hero.jpg'
+// import backgroundImage from '../img/samgyeop-hero.jpg';
 
 // removeChildren(); // this will be to reset the whole content section
 
@@ -72,8 +73,12 @@ removeChildren(); // this will be to reset the whole content section
     heroButtons.appendChild(heroBtn2);
     overlay.appendChild(heroButtons);
 
-    content.appendChild(overlay);
-    content.style.backgroundImage = "../img/samgyeopsal.png";
+    heroSection.appendChild(overlay);
+
+    content.appendChild(heroSection);
+    content.style.backgroundImage = "url('../src/assets/img/samgyeop-hero.jpg')" ;
+    // content.style.backgroundImage  = backgroundImage;
+    // content.style.backgroundImage = "url('./samgyeop-hero.jpg')";
 };
 
 
