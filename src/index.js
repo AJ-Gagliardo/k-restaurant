@@ -4,12 +4,29 @@ import { content } from "./assets/functions/content";
 import { removeChildren } from "./assets/functions/removeChildren";
 
 
-console.log('testing12345')
+
 
 // const content = document.getElementById('content');
 // const footer = document.getElementsByClassName('footer');
 
-// content.style.backgroundImage = "url('..src/assets/img/extra.jpg')" ;
+const homeBtn= document.getElementById('homeBtn');
+const menuBtn= document.getElementById('menuBtn');
+const aboutBtn= document.getElementById('aboutBtn');
+
+// const currentPage= 'home';
+console.log(homeBtn);
+console.log(menuBtn);
+
+
+homeBtn.addEventListener('click',()=>{
+    home();
+})
+
+menuBtn.addEventListener('click',()=>{
+
+    menu();
+})
+
 
 home();
 // menu();
