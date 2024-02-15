@@ -14,7 +14,10 @@
     margin:auto;
 }
 
+
+
 .menuSubtitle{
+    font-family: "7swordsmen";
    
 }
 
@@ -44,6 +47,7 @@
 
 .dishName,.dishP, .dishPrice{
     margin: 0;
+    color:rgb(230, 228, 228)
 }
 
 .dishName{
