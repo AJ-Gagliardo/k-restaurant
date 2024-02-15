@@ -1,6 +1,8 @@
-import home from "./assets/pages/home"
+import home from "./assets/pages/home";
+import menu from "./assets/pages/menu";
 import { content } from "./assets/functions/content";
 import { removeChildren } from "./assets/functions/removeChildren";
+
 
 console.log('testing12345')
 
@@ -10,3 +12,4 @@ console.log('testing12345')
 // content.style.backgroundImage = "url('..src/assets/img/extra.jpg')" ;
 
 // home();
+menu();
