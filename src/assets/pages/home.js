@@ -1,6 +1,7 @@
 
 import {content} from '../functions/content';
 import { removeChildren } from '../functions/removeChildren';
+import menu from './menu';
 
 
 // function createDiv(){
@@ -34,7 +35,6 @@ const heroBtn2 = createElement('button','hero-btn2','btns', 'About us');
 
 
 
-
 // import backgroundImage from '../img/samgyeop-hero.jpg';
 
 // removeChildren(); // this will be to reset the whole content section
@@ -51,6 +51,11 @@ removeChildren(); // this will be to reset the whole content section
     overlay.appendChild(heroText);
 
     heroButtons.appendChild(heroBtn1);
+
+    heroBtn1.addEventListener('click',()=>{
+       menu();
+    })
+
     heroButtons.appendChild(heroBtn2);
     overlay.appendChild(heroButtons);
 
@@ -64,6 +69,8 @@ removeChildren(); // this will be to reset the whole content section
     // content.style.backgroundImage  = backgroundImage;
     // content.style.backgroundImage = "url('./samgyeop-hero.jpg')";
 };
+
+
 
 
 export default home;

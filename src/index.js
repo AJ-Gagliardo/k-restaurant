@@ -11,5 +11,5 @@ console.log('testing12345')
 
 // content.style.backgroundImage = "url('..src/assets/img/extra.jpg')" ;
 
-// home();
-menu();
+home();
+// menu();
