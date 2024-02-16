@@ -1,6 +1,7 @@
 
 import {content} from '../functions/content';
 import { removeChildren } from '../functions/removeChildren';
+import aboutUs from './about';
 import menu from './menu';
 
 
@@ -57,6 +58,10 @@ removeChildren(); // this will be to reset the whole content section
     })
 
     heroButtons.appendChild(heroBtn2);
+
+    heroBtn2.addEventListener('click',()=>{
+        aboutUs();
+     })
     overlay.appendChild(heroButtons);
 
     heroSection.appendChild(overlay);
@@ -74,3 +79,4 @@ removeChildren(); // this will be to reset the whole content section
 
 
 export default home;
+
