@@ -7,6 +7,8 @@ import aboutUs from "./assets/pages/about";
 
 
 
+
+
 // const content = document.getElementById('content');
 // const footer = document.getElementsByClassName('footer');
 

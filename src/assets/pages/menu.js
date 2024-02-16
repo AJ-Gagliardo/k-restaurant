@@ -1,5 +1,7 @@
 import { removeChildren } from "../functions/removeChildren"
 import { content } from "../functions/content";
+import '../../styles/menu.css';
+import '../../styles/nav.css';
 
 
 
