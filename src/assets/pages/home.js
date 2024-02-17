@@ -3,9 +3,9 @@ import {content} from '../functions/content';
 import { removeChildren } from '../functions/removeChildren';
 import aboutUs from './about';
 import menu from './menu';
-import '../../styles/nav.css';
-import '../../styles/home.css';
-import './nav.css'
+// import '../../styles/nav.css';
+// import '../../styles/home.css';
+
 
 
 // function createDiv(){
