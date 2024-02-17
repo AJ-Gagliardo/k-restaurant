@@ -5,6 +5,7 @@ import { removeChildren } from "./assets/functions/removeChildren";
 import aboutUs from "./assets/pages/about";
 import "./styles/nav.css";
 import "./styles/menu.css";
+import "./styles/home.css";
 
 
 
