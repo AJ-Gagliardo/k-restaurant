@@ -3,6 +3,9 @@ import { content } from "../assets/functions/content";
 import '../styles/menu.css';
 import '../styles/nav.css';
 
+import bibimbap from '../assets/img/bibimbap.jpg';
+
+
 
 
 function createMenuElement(element, className, content, id ){
@@ -59,7 +62,7 @@ return itemDiv
 
 const item1= createMenuItem('Samgyeopsal', "$25,99","../src/assets/img/samgyeopsal.jpg" , 
 "A classic Korean dish featuring thick, juicy pork belly slices grilled to perfection. Served with a variety of accompaniments such as lettuce leaves, garlic, and dipping sauces, A delightful balance of savory flavors and tender textures.");
-const item2=  createMenuItem('Bibimbap','$16,99',"../src/assets/img/bibimbap.jpg",
+const item2=  createMenuItem('Bibimbap','$16,99',bibimbap,
 "Korean rice dish bursting with colors and flavors. Featuring a delightful assortment of fresh vegetables, tender meat (optional), and a fried egg atop a bed of steamed rice")
 
 const section2 = createMenuElement('h2','menuSubtitle','Main Dishes');
