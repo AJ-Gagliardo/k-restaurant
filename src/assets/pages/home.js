@@ -3,8 +3,7 @@ import {content} from '../functions/content';
 import { removeChildren } from '../functions/removeChildren';
 import aboutUs from './about';
 import menu from './menu';
-// import '../../styles/nav.css';
-// import '../../styles/home.css';
+import samgyeopsal from "../img/samgyeop-hero.jpg"
 
 
 
@@ -73,7 +72,7 @@ removeChildren(); // this will be to reset the whole content section
 
     // had to use npm install file-loader --save-dev 
     // to be able to use the code below 
-    content.style.backgroundImage = "url('../src/assets/img/samgyeop-hero.jpg')" ;
+    content.style.backgroundImage = `url(${samgyeopsal})` ;
     // content.style.backgroundImage  = backgroundImage;
     // content.style.backgroundImage = "url('./samgyeop-hero.jpg')";
 };
