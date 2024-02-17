@@ -5,6 +5,7 @@ import aboutUs from './about';
 import menu from './menu';
 import '../../styles/nav.css';
 import '../../styles/home.css';
+import './nav.css'
 
 
 // function createDiv(){
