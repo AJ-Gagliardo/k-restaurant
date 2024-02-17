@@ -1,9 +1,10 @@
 
-import {content} from '../functions/content';
-import { removeChildren } from '../functions/removeChildren';
+import { content } from '../assets/functions/content';
+import { removeChildren } from '../assets/functions/removeChildren';
 import aboutUs from './about';
 import menu from './menu';
-import samgyeopsal from "../img/samgyeop-hero.jpg"
+import samgyeopsal from "../assets/img/samgyeop-hero.jpg";
+
 
 
 

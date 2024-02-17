@@ -1,8 +1,8 @@
-import home from "./assets/pages/home";
-import menu from "./assets/pages/menu";
+import home from "./pages/home";
+import menu from "./pages/menu";
 import { content } from "./assets/functions/content";
 import { removeChildren } from "./assets/functions/removeChildren";
-import aboutUs from "./assets/pages/about";
+import aboutUs from "./pages/about";
 import "./styles/nav.css";
 import "./styles/menu.css";
 import "./styles/home.css";

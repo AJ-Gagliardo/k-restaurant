@@ -1,7 +1,7 @@
-import { removeChildren } from "../functions/removeChildren";
-import { content } from "../functions/content";
-import '../../styles/menu.css';
-import '../../styles/nav.css';
+import { removeChildren } from "../assets/functions/removeChildren";
+import { content } from "../assets/functions/content";
+import '../styles/menu.css';
+import '../styles/nav.css';
 
 function createElement(element, className, textContent, id){
     const createdElement = document.createElement(element);
