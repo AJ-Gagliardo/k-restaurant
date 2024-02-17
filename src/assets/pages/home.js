@@ -7,6 +7,7 @@ import samgyeopsal from "../img/samgyeop-hero.jpg"
 
 
 
+
 // function createDiv(){
 //     document.createElement('div');
 // }

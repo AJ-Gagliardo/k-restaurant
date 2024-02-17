@@ -6,6 +6,8 @@ import aboutUs from "./assets/pages/about";
 import "./styles/nav.css";
 import "./styles/menu.css";
 import "./styles/home.css";
+import logo from "./assets/img/logo-bowl.png";
+
 
 
 
@@ -14,6 +16,8 @@ import "./styles/home.css";
 
 // const content = document.getElementById('content');
 // const footer = document.getElementsByClassName('footer');
+const logoElement = document.getElementById('logo');
+logoElement.src = logo;
 
 const homeBtn= document.getElementById('homeBtn');
 const menuBtn= document.getElementById('menuBtn');
