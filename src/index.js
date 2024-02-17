@@ -3,6 +3,8 @@ import menu from "./assets/pages/menu";
 import { content } from "./assets/functions/content";
 import { removeChildren } from "./assets/functions/removeChildren";
 import aboutUs from "./assets/pages/about";
+import "./styles/nav.css";
+import "./styles/menu.css";
 
 
 
