@@ -8,6 +8,8 @@ import "./styles/menu.css";
 import "./styles/home.css";
 import logo from "./assets/img/logo-bowl.png";
 
+import samgyeopsal from './assets/img/samgyeopsal.jpg'
+import bibimbap from './assets/img/bibimbap.jpg';
 
 
 
