@@ -39,7 +39,7 @@ div#hero-section{
 #hero-text{
     font-size:1.5rem;
     color:white;
-    padding-top: 0%;
+    padding-top: 0;
 }
 
 #hero-btn1, #hero-btn2{
@@ -79,7 +79,7 @@ font-size: 1rem;
 
 @media only screen and (max-width: 600px) {
     #hero-title{
-        padding-top: 15%;
+        padding-top: 8%;
         width: 100%;
        font-size: 2.5rem;
  
@@ -87,12 +87,12 @@ font-size: 1rem;
 }
 
     #hero-subtitle{
-        padding-top: 10%;
+        padding-top: 8%;
         font-size: 2rem;
 
     }
     #hero-text{
-        padding-top: 10%;
+        padding-top: 5%;
     }
     div#hero-section{
         width:100%;

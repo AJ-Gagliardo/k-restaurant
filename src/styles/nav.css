@@ -6,6 +6,7 @@
 :root{
     color:white;
     margin:0;
+    padding: 0;
 }
 
 .nav-btn{
@@ -113,3 +114,14 @@ grid-column: 1/4;
     }
          
         }
+
+
+
+
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
