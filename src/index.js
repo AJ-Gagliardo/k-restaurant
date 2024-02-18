@@ -7,6 +7,7 @@ import "./styles/nav.css";
 import "./styles/menu.css";
 import "./styles/home.css";
 import logo from "./assets/img/logo-bowl.png";
+import githublogo from './assets/img/githubwhite.png';
 
 import samgyeopsal from './assets/img/samgyeopsal.jpg'
 import bibimbap from './assets/img/bibimbap.jpg';
@@ -20,6 +21,8 @@ import bibimbap from './assets/img/bibimbap.jpg';
 // const footer = document.getElementsByClassName('footer');
 const logoElement = document.getElementById('logo');
 logoElement.src = logo;
+const githublogo1 = document.getElementById('githublogo');
+githublogo1.src = githublogo;
 
 const homeBtn= document.getElementById('homeBtn');
 const menuBtn= document.getElementById('menuBtn');

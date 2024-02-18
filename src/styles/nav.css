@@ -76,7 +76,7 @@ grid-column: 1/4;
 .githublogo{
     height:2rem;
     width:2rem;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 50%;
   
 }
