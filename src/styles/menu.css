@@ -2,7 +2,7 @@
 #menuSection{
 
     display:grid;
-    width:60%;
+    width:50%;
     grid-template-columns: 1fr;
     /* grid-auto-rows: 1fr; */
    
@@ -24,7 +24,7 @@
 
 .item{
     display:grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
   
 }
 
@@ -41,7 +41,7 @@
 
 .menuImg {
     width: 100%; 
-    height: 25vh; 
+    height: 30vh; 
     max-width: 100%; 
 }
 
