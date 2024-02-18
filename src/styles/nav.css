@@ -40,7 +40,7 @@
     align-items:center;
     justify-content: center;
     margin:0;
-    margin-left: 15%;
+    /* margin-left: 15%; */
 }
 
 header{
@@ -105,6 +105,11 @@ grid-column: 1/4;
         height: 110px;
         width: 110px;
         /* border-radius: ; */
+    }
+
+    #restaurant-pre{
+ 
+        margin-left: 15%;
     }
          
         }
